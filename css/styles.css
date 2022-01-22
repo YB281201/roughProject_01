@@ -1,0 +1,172 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: "Montserrat";
+  size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+p {
+  color: #8f8f8f;
+  font-weight: normal;
+}
+
+/* navbar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+  font-family: "ubuntu";
+  color: rgb(133, 131, 131);
+}
+
+/* Download Buttons */
+
+.download_button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.dog_pic {
+  position: absolute;
+  width: 20%;
+  right: 25%;
+  transform: rotate(25deg);
+}
+
+/* feature */
+
+.feature-box {
+  background-color: white;
+  text-align: center;
+  padding: 5%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.hov {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.hov:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.doggo {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 20px;
+}
+
+.o1 {
+  margin-top: 10px;
+}
+
+.pimg {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.all-card {
+  padding: 3% 2%;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+  .dog_pic {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+  }
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+  color: white;
+}
+
+
+/* footer */
+
+#footer{
+  padding: 7% 15% 0;
+  text-align: center;
+  background-color: white;
+}
+
+.lit{
+  margin: 5px;
+}
